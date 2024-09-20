@@ -5,5 +5,5 @@ export default function RootLayout() {
     <Stack>
       <Stack.Screen name="(home)/index" options={{ headerShown: false }} />
     </Stack>
-  );
+  )
 }
