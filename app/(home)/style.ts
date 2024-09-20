@@ -7,7 +7,7 @@ export const styles = StyleSheet.create({
         paddingVertical: 70,
         paddingHorizontal: 30,
         backgroundColor: colors.zinc[950],
-        gap: 48,
+        gap: 44,
     },
     headerContainer: {
         backgroundColor: colors.zinc[950]
@@ -37,6 +37,13 @@ export const styles = StyleSheet.create({
     insertNameButton: {
         width: 56,
         height: 56,
-        backgroundColor: colors.charlotte[600]
+        backgroundColor: colors.charlotte[400],
+        justifyContent: "center",
+        alignItems: "center",
+        borderRadius: 4
+    },
+    insertNameButtonText: {
+        color: colors.zinc[50],
+        fontSize: 24
     }
 });

@@ -1,8 +1,13 @@
-import { Text, View, TextInput, Button } from "react-native";
+import { Text, View, TextInput, Button, TouchableOpacity } from "react-native";
 import { styles } from "./style";
 import { colors } from "@/utils/theme";
 
 export default function Home() {
+
+  const handleAddParticipant = () => {
+
+  }
+
   return (
     <View style={styles.container}>
       <View style={styles.headerContainer}>
@@ -16,10 +21,14 @@ export default function Home() {
           placeholderTextColor={colors.zinc[500]}
           keyboardType="default"
         />
-        <Button
-          title=""
-
-        />
+        <TouchableOpacity
+          style={styles.insertNameButton}
+          onPress={handleAddParticipant}
+        >
+          <Text style={styles.insertNameButtonText}>
+            +
+          </Text>
+        </TouchableOpacity>
       </View>
     </View>
   );
