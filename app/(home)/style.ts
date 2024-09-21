@@ -45,5 +45,18 @@ export const styles = StyleSheet.create({
     insertNameButtonText: {
         color: colors.zinc[50],
         fontSize: 24
+    },
+    participantsContainer: {
+        gap: 24
+    },
+    participantsTitle: {
+        fontSize: 20,
+        fontWeight: "bold",
+        color: colors.zinc[50]
+    },
+    participantsInitialText: {
+        fontSize: 14,
+        textAlign: "center",
+        color: colors.zinc[50]
     }
 });

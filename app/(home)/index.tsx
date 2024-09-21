@@ -1,6 +1,7 @@
 import { Text, View, TextInput, Button, TouchableOpacity } from "react-native";
 import { styles } from "./style";
 import { colors } from "@/utils/theme";
+import { ParticipantCard } from "@/components/home/participant-card/participant-card";
 
 export default function Home() {
 
@@ -29,6 +30,13 @@ export default function Home() {
             +
           </Text>
         </TouchableOpacity>
+      </View>
+      <View style={styles.participantsContainer}>
+        <Text style={styles.participantsTitle}>Participantes</Text>
+        {/* <Text style={styles.participantsInitialText}>
+          Ninguém chegou no evento ainda? {"\n"} Adicione participantes a sua lista de presença
+        </Text> */}
+        <ParticipantCard />
       </View>
     </View>
   );
