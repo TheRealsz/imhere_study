@@ -19,7 +19,7 @@ export const styles = StyleSheet.create({
     },
     eventDate: {
         fontSize: 18,
-        color: colors.zinc[600]
+        color: colors.zinc[600],
     },
     insertNameInputContainer: {
         flexDirection: "row",
@@ -58,5 +58,8 @@ export const styles = StyleSheet.create({
         fontSize: 14,
         textAlign: "center",
         color: colors.zinc[50]
+    },
+    participantsCardContainer: {
+        gap: 10
     }
 });
